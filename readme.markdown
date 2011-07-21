@@ -21,6 +21,7 @@ How to Use the Wrapper
 1. **Initialize the class**
 	
 	include( 'class.fcc-look-and-feel.php' );
+	
 	$wrapper = new FCC_Look_and_Feel();
 
 2. **Set the source page**
