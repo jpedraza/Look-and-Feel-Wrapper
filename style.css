@@ -1,0 +1,4 @@
+.form-row { float: left; clear: both; margin-bottom: 20px; }
+.form-label { float: left; width: 150px; font-weight: bold; text-align: right; margin-right: 25px; }
+.form-field { float: left; width: 100px; }
+.form-field textarea { width: 400px; height: 200px; }
