@@ -19,31 +19,23 @@ How to Use the Wrapper
 ----------------------
 
 1. **Initialize the class**
-
-	//call the wrapper and initialize the class
 	
 	include( 'class.fcc-look-and-feel.php' );
 	$wrapper = new FCC_Look_and_Feel();
 
 2. **Set the source page**
-
-	//set the URL
 	
 	$wrapper->url = 'http://www.fcc.gov/search/';
 
 3. **Describe the source page's layout**
-
-	//set the content div and settings
 	
 	$wrapper->content_div = 'contentcontainer';
 	
-	$wrapper->content_prepend = '<div id="maincontent" class="group"><div class="content-container">';
+	$wrapper->content_prepend = '&lt;div id="maincontent" class="group">&lt;div class="content-container">';
 	
-	$wrapper->content_append = '</div></div>';
+	$wrapper->content_append = '&lt;/div>&lt;/div>';
 	
 4. **Set the title of the resulting page**
-
-	//set the title of the final page
 	
 	$wrapper->title = 'Test of the FCC Common Look and Feel';
 
