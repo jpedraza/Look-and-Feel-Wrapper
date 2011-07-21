@@ -13,7 +13,7 @@ class FCC_Look_and_Feel {
 	private $version = '1.0'; //version
 	private $cache_dir = 'cache/';
 	
-	//attributes for storage
+	//attributes for storage, cannot be directly referenced. Use getHeader() and getFooter() instead
 	private $header = ''; //Formatted header
 	private $footer = ''; //Formatted footer
 	private $page = ''; //Raw source page data

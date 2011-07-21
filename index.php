@@ -35,7 +35,6 @@ echo $wrapper->get_header();
 	<li>Caches each request, either to disk or using APC</li>
 	<li>Allows you to add custom stylesheets</li>
 	<li>Allows you to add custom javascript, either to the header or footer</li>
-	<li>Add your own breadcrums</li>
 	<li>RESTful API can return either HTML or JSON</li>
 	<li>Works even if the website is down</li>
 </ul>
